@@ -41,7 +41,6 @@ ul {
   padding: 24px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
 }
 .form-label {
   display: block;
@@ -54,13 +53,13 @@ ul {
   color: #2e2f42;
 }
 .input-email {
+  margin-top: 8px;
   outline: transparent;
   background-color: transparent;
   border: 1px solid #808080;
   border-radius: 4px;
   height: 40px;
   width: 100%;
-  margin-bottom: 8px;
 }
 .input-email:hover,
 .input-email:focus {
@@ -68,13 +67,13 @@ ul {
 }
 
 .input-message {
+  margin-top: 8px;
   outline: transparent;
   background-color: transparent;
   border: 1px solid #808080;
   border-radius: 4px;
   height: 80px;
   width: 100%;
-  margin-bottom: 8px;
 }
 .input-message:hover,
 .input-message:focus {
