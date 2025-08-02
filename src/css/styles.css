@@ -11,8 +11,92 @@
 @import url('./animations.css');
 
 /* Sections style */
-@import url('./header.css');
+
 @import url('./vite-promo.css');
 @import url('./badges.css');
 @import url('./back-link.css');
-@import url('./footer.css');
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.gallery {
+  max-width: 1128px;
+  margin: 0 auto;
+
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.gallery img {
+  display: block;
+  width: 360px;
+  height: 200px;
+}
+.feedback-form {
+  max-width: 408px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form-label {
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.input-email {
+  outline: transparent;
+  background-color: transparent;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.input-email:hover,
+.input-email:focus {
+  border: 1px solid #000;
+}
+
+.input-message {
+  outline: transparent;
+  background-color: transparent;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  height: 80px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.input-message:hover,
+.input-message:focus {
+  border: 1px solid #000;
+}
+.form-btn {
+  display: block;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.form-btn:hover,
+.form-btn:focus {
+  background: #6c8cff;
+}
